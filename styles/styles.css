@@ -1,6 +1,16 @@
 /* This is a CSS */
+
+:root {
+    --heading-background-color: darkblue;
+    --heading-text-color: #ffffff;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+/* ROOT! */
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -11,13 +21,16 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -38,11 +51,17 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+
+
+    margin: 10px auto;
+    padding: var(--padding);
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
 }
 
 aside img {
     width: 200px;
     height: auto;
+    
 }
 
 main img {
