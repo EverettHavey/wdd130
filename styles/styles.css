@@ -32,7 +32,7 @@ img {
     height: auto;
     border: var(--border);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(236, 41, 41);
 }
 
 p {
