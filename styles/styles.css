@@ -2,12 +2,22 @@
 
 :root {
     --heading-background-color: darkblue;
-    --heading-text-color: #ffffff;
+    --heading-text-color: #2810a0;
     --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.1);
 }
 /* ROOT! */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
 
 nav {
     background-color: var(--heading-background-color);
@@ -27,13 +37,13 @@ h1 {
     padding: var(--padding);
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: var(--border);
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px rgb(128, 128, 128);
-
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -59,13 +69,23 @@ aside {
     box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
 }
 
+aside {
+    width: 20em;
+    text-align: center;
+}
+
 aside img {
     width: 200px;
     height: auto;
     
 }
 
-main img {
+aside h2 {
+    position: absolute;
+    left: 130px;
+}
+
+img {
     width: 150px;
     height: auto;
 }
@@ -76,4 +96,17 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* CLASS SELECTORS!*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
