@@ -1,0 +1,16 @@
+:root {
+    --primary-color: rgb(0 78 100);
+    --secondary-color: rgb(0 165 207);
+    --accent1-color: rgb(159 255 203);
+    --accent2-color: rgb(37 161 142);
+
+    --heading-font: ;
+    --text-font: ;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h1 { font: 'Montserrat', Helvetica, sans-serif;}
