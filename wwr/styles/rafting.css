@@ -34,6 +34,8 @@ li {
     flex-flow: column;
     list-style-type: none;
     display: flex;
+    width: auto;
+    height: auto;
 }
 
 ul {
@@ -103,4 +105,14 @@ figure {
 }
 .Contact {
 	min-height: 300px;
+}
+
+/* Float */
+
+.floatbox {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
