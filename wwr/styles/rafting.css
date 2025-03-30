@@ -27,6 +27,15 @@ a {
     text-decoration: none;
 }
 
+li {
+    margin: auto;
+    padding: 5px;
+    max-width: 220px;
+    flex-flow: column;
+    list-style-type: none;
+    display: flex;
+}
+
 .hero img {
     display: block;
     width: 100%;
