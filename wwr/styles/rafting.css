@@ -91,13 +91,16 @@ figure {
 
 /* 3rd */
 
-.item1 {
+.About {
 	min-height: 100px;
 
 }
-.item2 {
+.Home {
 	min-height: 200px;
 }
-.item3 {
+.Trips {
+	min-height: 300px;
+}
+.Contact {
 	min-height: 300px;
 }
