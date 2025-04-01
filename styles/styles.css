@@ -35,6 +35,7 @@ h1 {
     color: var(--heading-text-color);
     font-family: var(--heading-font);
     padding: var(--padding);
+    border: #000;
 }
 
 main img {
