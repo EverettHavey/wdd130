@@ -21,6 +21,11 @@ body {
     color: #000;
 }
 
+.textedit {
+    color: var(--text-font);
+
+}
+
 /* h1 { font: 'Montserrat', Helvetica, sans-serif;} */
 
 a {
@@ -42,6 +47,7 @@ li {
 ul {
     text-align: center; 
     display: flex;
+    background-color: var(--primary-color);
 }
 
 img {
