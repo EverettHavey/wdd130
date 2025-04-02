@@ -17,37 +17,26 @@
 <main>
     <form>
         <fieldset>
-            <legend>Contact Information</legend>
-            <label for="feedback">List the places you have lived:</label>
-            <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
-            <div class="form-item">
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-            </div>
-            <div class="form-item">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail">
-            </div>
-
-        </fieldset>
-        <fieldset>
             <legend>Questions</legend>
-        
-             <label for="browser">What is your favorite internet browser?</label>
+            <label for="question1">1. What does the acronym CSS stand for?</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
 
-             <div class="column1">
-                <option id="" selected disabled>Choose One ...</option>
-                    <option value="chrome">q1</option>
-                    <option value="firefox">q2</option>
-                    <option value="safari">q3</option>
+            <label for="question2">2. How are id and class attributes selected in CSS?</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
+            
+            <div class="column1">
+                <label for="question2">3. Which of the following is a valid CSS comment?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Choose One...</option>
+                    <option value="firefox">q1</option>
+                    <option value="safari">q2</option>
+                    <option value="edge">q3</option>
+                    <option value="other">Other</option>
                  </select>
              </div>
-             <div class="column2">
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
-             </div>
-             <label for="feedback">List the places you have lived:</label>
-             <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+
+             <label for="question2">4. How are id and class attributes selected in CSS?</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
         </fieldset>
         <button type="submit">Submit Quiz</button>
     </form>
