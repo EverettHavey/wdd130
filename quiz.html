@@ -12,12 +12,14 @@
 </head>
 <body>
 <header>
-    <h1>WDD 130 | Everett Havey | HTML Form - User Poll</h1>
+    <h1>✅Basic HTML and CSS Quiz</h1>
 </header>
 <main>
     <form>
         <fieldset>
             <legend>Contact Information</legend>
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder=""></textarea>
             <div class="form-item">
                 <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname">
@@ -34,12 +36,10 @@
              <label for="browser">What is your favorite internet browser?</label>
 
              <div class="column1">
-                <select id="browser" name="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="safari">Safari</option>
-                    <option value="edge">Edge</option>
-                    <option value="other">Other</option>
+                <option id="" selected disabled>Choose One ...</option>
+                    <option value="chrome">q1</option>
+                    <option value="firefox">q2</option>
+                    <option value="safari">q3</option>
                  </select>
              </div>
              <div class="column2">
@@ -49,7 +49,7 @@
              <label for="feedback">List the places you have lived:</label>
              <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
         </fieldset>
-        <button type="submit">Submit Poll</button>
+        <button type="submit">Submit Quiz</button>
     </form>
 </main>
 <footer>
