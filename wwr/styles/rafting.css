@@ -13,6 +13,10 @@ body {
     font-weight: 400;
 }
 
+
+   /* { font: 'Montserrat', Helvetica, sans-serif;}*/
+
+
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
@@ -130,3 +134,17 @@ figure {
     background-color: #ddd;
     color: #000;
 }
+
+button:hover {
+    background-color: var(--accent1-color);
+  }
+
+  button {
+    margin: 1rem;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
