@@ -139,12 +139,6 @@ button:hover {
     background-color: var(--accent1-color);
   }
 
-  button {
-    margin: 1rem;
-    background-color: lightblue;
-    color: var(--accent2-color);
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
-  }
+button {
+    background-color: var(--accent2-color);
+}
