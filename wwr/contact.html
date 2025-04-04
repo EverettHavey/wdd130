@@ -27,53 +27,59 @@
     </header>
     <main>
         <div>
-            <article>
-              <h1>White Water Rafting</h1>
-              <p>A fun exciting adventure to explore! Come join us while we go beyond the waves together.</p>
-              <img src="wwrimages/raftinggroupshot.jpg" alt="White Water Rafting">
-            </article>
-        </div>
+            <h1>Contact Us</h1>
+        <p>Address: Garfield Precinct, Nebraska 69022</p>
+        <P>Phone: (+308) 789-3397</P>
+        <P>Email: <a href="mailto:">info@whitewaterrafting.com</a></P>
+        <h2>Map:</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97237.18598027606!2d-100.35077288440966!3d40.394181828164506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x879e3899572bca6d%3A0xf842a625d6a09059!2sGarfield%20Precinct%2C%20NE%2069022!5e0!3m2!1sen!2sus!4v1743805502419!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
         <section>
-            <h2>History</h2>
-            <p> White Water Rafting first started in 2001, Since then, The adventure and safty of our adventure has been our commitment. Our company has grown from a team of 15 staff members, to 1,658 staff members, offering amazing journeys that are unforgettable.</p>
+            <h3>Staff Team</h3>
+            <p> </p>
             <img src="wwrimages/raftingphoto.webp" alt="White Water Rafting">
         </section>
         <section>
-            <h2>Adventure Awaits You!</h2>
+            <h2>Send a Message to us</h2>
             
-            <!-- Figure -->
-            <examp class="flex-container">
-                <figure>
-                    <img
-                      src="wwrimages/image1.webp"
-                      alt="White Water Rafting Adventure1" />
-                    <figcaption>White Water Rafting</figcaption>
-                  </figure>
-                  <figure>
-                    <img
-                      src="wwrimages/image2.webp"
-                      alt="White Water Rafting Adventure2" />
-                    <figcaption>White Water Rafting</figcaption>
-                  </figure>
-                  <figure>
-                    <img
-                      src="wwrimages/image3.webp"
-                      alt="White Water Rafting Adventure3" />
-                    <figcaption>White Water Rafting</figcaption>
-                  </figure>
-                  <figure>
-                    <img
-                      src="wwrimages/image4.webp"
-                      alt="White Water Rafting Adventure4" />
-                    <figcaption>White Water Rafting</figcaption>
-                  </figure>
-                <figure>
-                    <img
-                      src="wwrimages/image5.jpg"
-                      alt="White Water Rafting Adventure5" />
-                    <figcaption>White Water Rafting</figcaption>
-                  </figure>
-            </examp>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                
+                <label for="message">Message Type:</label>
+                <form>
+                    <input type="radio" id="General Inquiry" name="message" value="General Inquiry">
+                    <label for="General Inquiry">General Inquiry</label><br>
+
+                    <input type="radio" id="Reservation Question" name="message" value="Reservation Question">
+                    <label for="Reservation Question">Reservation Question</label><br>
+
+                    <input type="radio" id="Website Suggestion" name="message" value="Website Suggestion">
+                    <label for="Website Suggestion">Website Suggestion</label><br>
+
+                    <input type="radio" id="Other" name="message" value="Other">
+                    <label for="Other">Other</label><br>
+                </form>
+
+                <div>
+                    <label for="feedback">Message:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Input Message..."></textarea>
+                 </div>
+                 <div class="column2">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                 </div>
+                 <button type="submit">Send Message</button>
+            </fieldset>
+            
         </section>
     </main>
     <footer>
