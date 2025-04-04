@@ -138,7 +138,3 @@ figure {
 button:hover {
     background-color: var(--accent1-color);
   }
-
-button {
-    background-color: var(--accent2-color);
-}
