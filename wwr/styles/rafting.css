@@ -142,7 +142,7 @@ button:hover {
   button {
     margin: 1rem;
     background-color: lightblue;
-    color: black;
+    color: var(--accent2-color);
     border: none;
     border-radius: .5rem;
     padding: .75rem;
