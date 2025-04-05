@@ -138,3 +138,7 @@ figure {
 button:hover {
     background-color: var(--accent1-color);
   }
+
+.map {
+    styl  border: 0;
+}
