@@ -23,7 +23,7 @@ body {
     border: 1px solid rgb(0 0 0 / 0.1);
     padding: 1rem;
     background-color: var(--secondary-color);
-    color: #000;
+    color: var(--accent1-color);
 }
 
 
