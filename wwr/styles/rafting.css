@@ -13,6 +13,9 @@ body {
     font-weight: 400;
 }
 
+body {
+  color: var(--primary-color);
+}
 
    /* { font: 'Montserrat', Helvetica, sans-serif;}*/
 .box {
