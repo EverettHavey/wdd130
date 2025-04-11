@@ -89,10 +89,11 @@ h6 {
     background-color: gold;
 }
   
-  img {
-    max-width: 220px;
-    max-height: 150px;
-  }
+img {
+  max-width: 220px;
+  max-height: 150px;
+}
+
   
   figcaption {
     background-color: #222;
