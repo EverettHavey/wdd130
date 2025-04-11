@@ -11,13 +11,13 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    background-color: var(--accent2-color);
+    background-color: rgb(37, 161, 142);
 }
 
    /* { font: 'Montserrat', Helvetica, sans-serif;}*/
 .box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.1);
+    margin: 0.5rem;
+    border: 7px solid rgba(255, 255, 255, 0.361);
     padding: 1rem;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
@@ -70,7 +70,6 @@ figure {
     max-width: 220px;
     margin: auto;
   }
-/* h4 */
 
 h5 {
     font: 1em sans-serif;
@@ -104,6 +103,7 @@ img {
 /* */  
 
 .flex-container {
+  margin: 0.5rem;
 	border: 3px dashed darkcyan;
 	background-color: lightyellow;
 	display: flex;
@@ -209,3 +209,105 @@ button:hover {
     font-weight: bold;
   }
 
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #eee;
+  padding: 2em;
+  text-align: center;
+}
+
+.newsletter form {
+  display: inline-block;
+}
+
+.newsletter label {
+  margin-right: 0.5em;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 0.5em;
+  margin-right: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.newsletter button {
+  padding: 0.5em 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+ /* Call to Action */
+ .cta {
+  text-align: center;
+  padding: 2em;
+  background-color: #ddd;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-content {
+    padding: 15px;
+}
+
+.grid-content h3 {
+    margin-top: 0;
+}
