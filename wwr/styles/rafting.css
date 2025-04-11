@@ -11,10 +11,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-}
-
-body {
-  background-color: var(--primary-color);
+    background-color: var(--accent2-color);
 }
 
    /* { font: 'Montserrat', Helvetica, sans-serif;}*/
