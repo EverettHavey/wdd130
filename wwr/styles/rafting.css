@@ -24,6 +24,7 @@ body {
     padding: 1rem;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
+    display: flex;
 }
 
 
